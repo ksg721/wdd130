@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(17, 81, 218, 0.737);
+    color: white;
+    font-size: 20px;
+}
+
+h1  {
+    font-size: 60px;
+}
+
+h1:hover {
+    color: black;
+}
+
+.quote {
+    font-weight: bold;
+}
+
+ol {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+img {
+    width: 45%;
+}
+
+.last {
+    font-size: 50px;
+}
+
+footer p {
+    color: black;
+    font-weight: bold;
+}
