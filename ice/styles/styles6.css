@@ -1,7 +1,11 @@
+body {
+    margin: 0 auto;
+}
+
 .all {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .item1 {
@@ -36,5 +40,5 @@
     font-weight: bold;
     text-align: center;
     margin: auto;
-    font-size: 3em;
+    font-size: 6em;
 }
