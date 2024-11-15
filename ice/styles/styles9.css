@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+
+.card {
+    width: 250px;
+    background-color: white;
+    border-radius: 10% 10% 10% 10%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 10% 10% 0 0;
+}
+
+h3 {
+text-align: center;
+color: rgb(77, 77, 148);
+font-size: 0.8em;
+}
+
+h1 {
+text-align: center;
+font-weight: bold;
+}
+
+.main {
+text-align: center;
+padding: 0 10%;
+color: rgb(112, 110, 110);
+}
+
+.bottom {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+background-color: rgb(77, 77, 148);
+color: white;
+border-radius: 0 0 10% 10%;
+}
+
+.first {
+text-align: center;
+grid-column: 1/2;
+border-radius: 0 0 20% 0;
+}
+
+.second {
+border: solid gray;
+border-width: 0 2px 0 2px;
+text-align: center;
+grid-column: 2/3;
+}
+
+.third {
+text-align: center;
+grid-column: 3/4;
+border-radius: 0 0 0 20%;
+}
+
+.top {
+font-size: 1.25em;
+margin: auto auto 0 auto;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+  }
+
+.under {
+font-size: .8em;
+margin: 0 auto auto auto;
+}
